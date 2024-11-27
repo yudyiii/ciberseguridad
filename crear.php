@@ -15,7 +15,7 @@ if ($conn->connect_error) {
     die("Conexión fallida: " . $conn->connect_error);
 }
 
-$name = $_POST['name'];
+$name = $_POST['nombre'];
 $email = $_POST['email'];
 $password = $_POST['password'];
 $phone = $_POST['phone'];
